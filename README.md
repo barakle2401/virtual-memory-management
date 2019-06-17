@@ -1,4 +1,7 @@
 # virtual-memory-management
-simulate virtual memory management technique
+simulate virtual memory management technique and demand by paging 
 
-![alt text](https://github.com/piskarovhaim/MaYesh/blob/master/wiki%20files/yeshiva.jpg)
+## program flow chart  :
+
+![alt text](https://github.com/barakle2401/virtual-memory-management/blob/master/memorySimulate.PNG)
+
