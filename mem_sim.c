@@ -1,7 +1,7 @@
 /*
  * program objective: simulate demand paging method to management memory system 
  * only the demand pages of the process will store into the ram 
- * pages that has been change will be store into the swap file   
+ * pages that has been changed will store into the swap file   
  */
 #include "mem_sim.h"
 int free_frames[MEMORY_SIZE/PAGE_SIZE];
