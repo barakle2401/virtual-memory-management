@@ -6,7 +6,7 @@
 #include "mem_sim.h"
 int free_frames[MEMORY_SIZE/PAGE_SIZE];
 fifo * head;//queue
-//load the address to the main mem 
+//load the address to main mem 
 char load(struct sim_database* sim_db,int address)
 {
     int physical_address=0;
@@ -31,9 +31,6 @@ char load(struct sim_database* sim_db,int address)
            
             source_to_frame(sim_db,page,frame,sim_db->program_fd); //copy from exe to memory 
             update_page_table(sim_db,page,1,0,frame);
-         
-            //physical_address = (sim_db->page_table[page].frame*PAGE_SIZE)+offset;
-            //return sim_db->main_memory[physical_address];
         }
         else
         {//p==1
