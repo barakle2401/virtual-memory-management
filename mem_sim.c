@@ -1,7 +1,4 @@
 /*
- * Barak Levy 
- * 203280185
- * Ex5 - virtual memory 
  * program objective: simulate demand paging method to management memory system 
  * only the demand pages of the process will store into the ram 
  * pages that has been change will be store into the swap file   
